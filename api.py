@@ -575,8 +575,8 @@ async def zip_website(
                     content={
                         "success": False,
                         "error": error,
-                        "api_dev": "@ab_devs",
-                        "api_updates": "@abkidz"
+                        "api_dev": "@AmmarDevx",
+                        "api_updates": "@ammar_devs"
                     }
                 )
 
@@ -599,8 +599,8 @@ async def zip_website(
                     content={
                         "success": False,
                         "error": "Failed to create zip archive",
-                        "api_dev": "@ab_devs",
-                        "api_updates": "@abkidz"
+                        "api_dev": "@AmmarDevx",
+                        "api_updates": "@ammar_devx"
                     }
                 )
 
@@ -633,8 +633,8 @@ async def zip_website(
                 "file_count": len(file_paths),
                 "time_taken_seconds": round(time_taken, 2),
                 "expires_in_seconds": 300,
-                "api_dev": "@ab_devs",
-                "api_updates": "@abkidz"
+                "api_dev": "@AmmarDevx",
+                "api_updates": "@ammar_devs"
             })
 
     except Exception as e:
@@ -649,8 +649,8 @@ async def zip_website(
             content={
                 "success": False,
                 "error": str(e),
-                "api_dev": "@ab_devs",
-                "api_updates": "@abkidz"
+                "api_dev": "@AmmarDevx",
+                "api_updates": "@ammar_devs"
             }
         )
 
@@ -692,8 +692,8 @@ async def root():
     return {
         "api": "WebSource Downloader",
         "usage": "/zip?url=https://example.com",
-        "api_dev": "@ab_devs",
-        "api_updates": "@abkidz"
+        "api_dev": "@AmmarDevx",
+        "api_updates": "@ammar_devs"
     }
 
 
@@ -712,7 +712,7 @@ if __name__ == "__main__":
     print(f"  Network: http://{local_ip}:3648")
     print(f"  Usage:   /zip?url=https://example.com")
     print(f"{'='*60}")
-    print(f"  API Dev: @ab_devs | Updates: @abkidz")
+    print(f"  API Dev: @AmmarDevx | Updates: @ammar_devs")
     print(f"{'='*60}\n")
 
     uvicorn.run(
